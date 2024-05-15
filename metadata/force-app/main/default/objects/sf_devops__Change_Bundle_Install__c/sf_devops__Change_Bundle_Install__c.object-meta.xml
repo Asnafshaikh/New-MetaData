@@ -143,23 +143,26 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents the installation of a change bundle into an environment.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
-    <label>asnaf</label>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Change Bundle Install</label>
     <nameField>
-        <label>asnaf_test Name</label>
-        <type>Text</type>
+        <displayFormat>CBI-{000000}</displayFormat>
+        <label>Change Bundle Install Name</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>asnafs</pluralLabel>
+    <pluralLabel>Change Bundle Installs</pluralLabel>
     <searchLayouts></searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
