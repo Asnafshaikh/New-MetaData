@@ -1,1 +1,1 @@
-trigger TestTrigger108 on Contract (after insert){}
+trigger TestTrigger108 on Contact (after insert){}
